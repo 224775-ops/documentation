@@ -1,16 +1,16 @@
 version: 2
-updates:
+updates:0
 - package-ecosystem: pip
   directory: "/"
-  schedule:
+  schedule:every day
     interval: daily
   open-pull-requests-limit: 10
-  groups:
-    docusaurus:
-      patterns:
+  groups:idk
+    docusaurus:idk
+      patterns:idk
       - "@docusaurus/*"
 - package-ecosystem: github-actions
   directory: "/"
-  schedule:
+  schedule:evrey day
     interval: weekly
   open-pull-requests-limit: 10
